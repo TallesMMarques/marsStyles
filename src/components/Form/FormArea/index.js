@@ -1,12 +1,13 @@
 import React from 'react';
 
-import { Container, Input, Buttons, Button, ForgotPass } from './styles';
+import { Container, Buttons, Button, ForgotPass } from './styles';
+import Input from './Input';
 
 function FormArea() {
   return (
     <Container>
-      <Input placeholder="Username" type="text" />
-      <Input placeholder="Password" type="password" />
+      <Input label="Username" type="text" />
+      <Input label="Password" type="password" />
 
       <Buttons>
         <Button>Sing In</Button>

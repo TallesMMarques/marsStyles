@@ -16,6 +16,7 @@ export const Container = styled.div`
 export const Input = styled.input`
   width: 250px;
   height: 35px;
+  position: relative;
 
   margin-bottom: 15px;
 
@@ -75,7 +76,7 @@ export const Button = styled.button`
 `;
 
 export const ForgotPass = styled.a`
-  margin-top: 50px;
+  margin-top: 40px;
 
   color: var(--pink);
   font-size: 14px;
